@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import styles from './ContactsListItem.module.css';
+
 export const ContactsListItem = ({ name, number, deleteContact, id }) => {
   return (
     <li className={styles.item}>
