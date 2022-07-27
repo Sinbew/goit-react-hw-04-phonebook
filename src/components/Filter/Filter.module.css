@@ -1,0 +1,10 @@
+.filterLabel {
+  display: block;
+}
+
+.filterInput {
+  display: block;
+  width: 70%;
+
+  margin-top: 10px;
+}

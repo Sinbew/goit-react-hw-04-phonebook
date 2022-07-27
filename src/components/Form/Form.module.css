@@ -1,0 +1,40 @@
+form {
+  border: 1px solid rgb(183, 195, 207);
+  padding: 20px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+.formInput {
+  display: block;
+  width: 100%;
+}
+
+.formLabel {
+  font-weight: 4 00;
+  display: block;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 5px 15px;
+  margin-top: 15px;
+
+  border: none;
+
+  width: 100%;
+
+  background-color: royalblue;
+  color: #fff;
+
+  font-weight: 500;
+
+  cursor: pointer;
+  border-radius: 2px;
+
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: rgb(34, 74, 194);
+}

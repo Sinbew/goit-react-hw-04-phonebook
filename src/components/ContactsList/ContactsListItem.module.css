@@ -1,0 +1,30 @@
+.deleteBtn {
+  margin-left: 20px;
+
+  border: transparent;
+
+  padding: 4px 15px;
+
+  background-color: rgb(235, 235, 235);
+
+  cursor: pointer;
+  border-radius: 2px;
+
+  transition: 0.1s;
+}
+
+.deleteBtn:hover {
+  background-color: royalblue;
+  color: #fff;
+}
+
+.item {
+  display: flex;
+
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.item span:nth-child(2) {
+  font-weight: 500;
+}
